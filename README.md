@@ -60,12 +60,16 @@ In **Terminal A**:
 cd services
 java -jar transaction-incentive-api.jar
 
+---
+
 ### 2) Run the Application Tests
 In **Terminal B**:
 ```bash
 ./mvnw test
 
-Run specific tasks:
+---
+
+### 3) Run specific tasks:
 
 ```bash
 ./mvnw -Dtest=TaskTwoTests test
